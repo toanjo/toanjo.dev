@@ -4,8 +4,7 @@ import Layout from '../layout'
 const About = () => <Layout>
     <h1>About Me</h1>
     <p>I am a Software Engineer living and working in the north of Portugal.</p>
-    <p>I have been working on web development since September 2017. 
-        I have grown to love Front-End development and am currently enjoying <a className="red-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">React</a> and related technologies.
+    <p>I mainly work on Front-End development and am currently enjoying <a className="red-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">React</a> and related technologies.
     </p>
     <p>
         You can find some of my open-source projects (such as this website) on <a className="red-link" href="https://github.com/toanjo" target="_blank" rel="noopener noreferrer">Github</a>.
