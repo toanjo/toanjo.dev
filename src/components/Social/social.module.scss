@@ -1,0 +1,13 @@
+.social {
+    a {
+      svg {
+        width: 1.5em;
+  
+        fill: hsla(0, 100%, 50%, 0.651);
+      }
+    }
+  
+    a + a {
+      margin-left: 1.25em;
+    }
+  }
