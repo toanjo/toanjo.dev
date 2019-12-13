@@ -1,0 +1,22 @@
+.post-title {
+    color: hsla(0, 100%, 50%, 1);
+}
+
+.post-date {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.post-footer {
+    margin-top: 2em;
+    font-size: 0.8em;
+    color: #666;
+    a {
+        text-decoration: none;
+        color: hsla(0, 100%, 50%, 0.651);
+    }
+    a:hover {
+        color: hsla(0, 100%, 50%, 1);
+    }
+}

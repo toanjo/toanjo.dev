@@ -9,6 +9,7 @@ I just launched a new website and blog!
 ## TODO
 
 1. Figure out blog post order
-2. Use images
+2. Use images and add them to about
 3. Review all codes
-4. Refactor / Optimize dumb little things
+4. Refactor / Optimize CSS
+5. Review mobile / add media queries

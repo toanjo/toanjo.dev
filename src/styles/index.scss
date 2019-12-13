@@ -10,3 +10,12 @@ body {
 h1 {
   font-size: 1.5rem;
 }
+
+.red-link {
+  text-decoration: none;
+  color: hsla(0, 100%, 50%, 0.651);
+}
+
+.red-link:hover {
+  color: hsla(0, 100%, 50%, 1);
+}

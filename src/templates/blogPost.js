@@ -1,7 +1,8 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 
 import Layout from '../layout'
+import postStyles from './blogPost.module.scss'
 
 export const query = graphql`
     query($slug: String!) {
@@ -16,9 +17,10 @@ export const query = graphql`
 `
 
 const Blog = (props) => <Layout>
-    <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-    <p>{props.data.markdownRemark.frontmatter.date}</p>
+    <h1 className={postStyles.postTitle}>{props.data.markdownRemark.frontmatter.title}</h1>
+    <p className={postStyles.postDate}>{props.data.markdownRemark.frontmatter.date}</p>
     <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
+    <p className={postStyles.postFooter}>Written by Tó. <Link to="/">Go back home</Link>.</p>
 </Layout>
 
 export default Blog
