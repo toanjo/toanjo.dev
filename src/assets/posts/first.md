@@ -1,14 +1,14 @@
 ---
-title: "My Blog Post"
-date: "2019-12-13"
+title: "New Beginnings"
+date: "2019-12-12"
+description: "I launched a new website today. What's new?"
 ---
 
 I just launched a new website and blog!
 
 ## TODO
 
-1. Use images
-2. Fix CSS of blog page (post list)
-3. Figure out frontmatter fields
-4. Review all code
-5. Refactor / Optimize dumb little things
+1. Figure out blog post order
+2. Use images
+3. Review all codes
+4. Refactor / Optimize dumb little things

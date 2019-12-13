@@ -1,0 +1,28 @@
+.links {
+    text-decoration: none;
+}
+
+.read-link {
+    text-decoration: none;
+    color: hsla(0, 100%, 50%, 0.651);
+}
+
+.read-link:hover {
+    color: hsla(0, 100%, 50%, 1);
+}
+
+.post-title {
+    color: hsla(0, 100%, 50%, 1);
+}
+
+.post-date {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.container {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
