@@ -5,7 +5,7 @@ import postListStyles from "./postlist.module.scss"
 
 const PostList = props => (
   <div>
-    {props.data.allMarkdownRemark.edges.map(edge => (
+    {props.data.map(edge => (
       <div
         className={postListStyles.container}
         key={edge.node.frontmatter.date}
