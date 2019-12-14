@@ -8,7 +8,7 @@ import PostList from "../components/PostList"
 const Blog = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
         edges {
           node {
             frontmatter {
@@ -33,7 +33,11 @@ const Blog = () => {
         <title>Tó Anjo</title>
         <link rel="canonical" href="http://toanjo.dev" />
       </Helmet>
-      <PostList data={data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.published)} />
+      <PostList
+        data={data.allMarkdownRemark.edges.filter(
+          edge => edge.node.frontmatter.published
+        )}
+      />
     </Layout>
   )
 }
