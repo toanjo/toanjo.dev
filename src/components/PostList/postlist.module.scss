@@ -1,3 +1,13 @@
+.container {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.container:last-child {
+    border-bottom: none;
+}
+
 .links {
     text-decoration: none;
 }
@@ -19,14 +29,4 @@
     margin-top: 0.5em;
     font-size: 0.8em;
     color: #666;
-}
-
-.container {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-    border-bottom: 1px solid #ccc;
-}
-
-.container:last-child {
-    border-bottom: none;
 }

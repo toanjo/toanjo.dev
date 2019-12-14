@@ -3,7 +3,8 @@ import { Link } from "gatsby"
 
 import headerStyles from './header.module.scss'
 
-const Header = () => <header className={headerStyles.header}>
+const Header = () => 
+<header className={headerStyles.header}>
     <h1 className={headerStyles.h1}>
         <Link to="/" className={headerStyles.title}>Tó Anjo</Link>
     </h1>

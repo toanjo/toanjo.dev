@@ -1,13 +1,14 @@
 import React from "react"
 
-import LinkedIn from "../../assets/images/linkedin.svg";
-import Twitter from "../../assets/images/twitter.svg";
-import Github from "../../assets/images/github.svg";
-import Mail from "../../assets/images/mail.svg";
+import LinkedIn from '../../assets/images/linkedin.svg'
+import Twitter from '../../assets/images/twitter.svg'
+import Github from '../../assets/images/github.svg'
+import Mail from '../../assets/images/mail.svg'
 
 import SocialStyles from './social.module.scss'
 
-const Social = () => <div className={SocialStyles.social}>
+const Social = () => 
+<div className={SocialStyles.social}>
     <a aria-label="Email" href="mailto:to.anjo57@gmail.com" target="_blank" rel="noopener noreferrer">
         <Mail />
     </a>
