@@ -9,14 +9,16 @@
 }
 
 .post-footer {
-    margin-top: 2em;
+    float: right;
     font-size: 0.8em;
+    margin-top: 2rem;
     color: #666;
-    a {
-        text-decoration: none;
-        color: hsla(0, 100%, 50%, 0.651);
-    }
-    a:hover {
-        color: hsla(0, 100%, 50%, 1);
-    }
+}
+
+a {
+    text-decoration: none;
+    color: hsla(0, 100%, 50%, 0.651);
+}
+a:hover {
+    color: hsla(0, 100%, 50%, 1);
 }
