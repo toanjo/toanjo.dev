@@ -28,7 +28,7 @@ const Blog = props => (
       dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
     ></div>
     <p className={postStyles.postFooter}>
-      Written by Tó. <Link to="/">Go back home</Link>.
+      Written by Tó. <Link to="/">Go back home</Link>
     </p>
   </Layout>
 )
