@@ -11,16 +11,8 @@ const Header = () => (
       </Link>
     </h1>
     <p>
-      {/* Software Engineer at <a className={headerStyles.headerLinks} href="https://utrust.com/" target="_blank" rel="noopener noreferrer">Utrust</a>. Tech, music and other good things. */}
       Software Engineer at{" "}
-      <a
-        className={headerStyles.headerLinks}
-        href="https://jumpseller.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Jumpseller
-      </a>
+      <a className={headerStyles.headerLinks} href="https://utrust.com/" target="_blank" rel="noopener noreferrer">Utrust</a>
       . Tech, music and other good things.
     </p>
     <nav>
